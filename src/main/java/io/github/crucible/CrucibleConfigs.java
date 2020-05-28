@@ -32,6 +32,12 @@ public class CrucibleConfigs extends YamlConfig {
     @Comment("Hide your plugins from /plugins")
     public boolean crucible_hidePluginList = true;
 
+    @Comment("Enable Oversized Chunk to be saved")
+    public boolean crucible_enableOversizedChunk = true;
+
+    @Comment("Size of cached chunk")
+    public int crucible_chunkCacheSize = 256;
+
     @Comment("Log stub calls.")
     public boolean crucible_logging_logStubs = false;
 
